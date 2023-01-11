@@ -1,5 +1,5 @@
 import React from "react";
-import {v1 as uuid}from 'uuid'
+import {v4 as uuid}from 'uuid'
 
 function NavBar() {
   const links = ["home", "about", "projects"];
